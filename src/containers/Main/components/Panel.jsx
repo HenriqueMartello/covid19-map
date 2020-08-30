@@ -20,9 +20,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
     const textCovid19 = `País: ${country} - Casos Atuais: ${cases} - Recuperados: ${recovered} `
 
     const copyInfo = () => {
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(textCovid19)
-        }
+        navigator.clipboard.writeText(textCovid19);
     }
 
     const shareInfo = () => {
