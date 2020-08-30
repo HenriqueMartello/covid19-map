@@ -1,7 +1,5 @@
-import React, { memo } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
 import { Grid, Skeleton } from '../../../components'
-import { getByDisplayValue } from '@testing-library/react'
 import Card from './Card'
 
 function Board({ data }) {
